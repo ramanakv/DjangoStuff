@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person List</title>
+</head>
+<body>
+<table>
+{% for person in persons %}
+<tr>
+    <td>{{person.name}}</td>
+    <td>{{person.joinDate}}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>

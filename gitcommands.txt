@@ -1,0 +1,28 @@
+install git from  git.scm.com
+
+check version 
+  git --version
+
+local repository
+  git init
+  
+Before first commit
+  git status
+
+To ignore file:
+  create text file .ignorefiles
+  add filenames to ignore
+  
+Add files to repository   
+   git add -A
+   
+Commit changes
+   git commit -m "first commit"
+  
+first time config  
+git config -- global user.name "Ramana Reddy"
+git config --global user.email "ramanakv@ymail.com"
+
+git remote add origin https://github.com/ramanakv/DjangoStuff.git
+
+git push -u origin master
